@@ -1,22 +1,16 @@
 # Sentiment-Analysis-on-Arabic-English-Tweets
 
-This project performs sentiment analysis on tweets in English and Arabic, classifying them into:
+**Project Highlights:**  
+- Built a multilingual sentiment analyzer for **English (positive/neutral/negative)** and **Arabic (normal/abusive)** tweets  
+- Achieved **75% accuracy (English)** and **88% (Arabic)** using Logistic Regression  
+- Implemented advanced NLP techniques:  
+  - Text cleaning, stemming, and Arabic-specific normalization  
+  - Class imbalance handling with oversampling  
+  - BERT-based multilingual classification (experimental)  
+- Key Libraries: `sklearn`, `nltk`, `transformers`, `pandas`  
 
-English: Positive, Neutral, or Negative
-
-Arabic: Normal or Abusive
-
-Built with machine learning (Logistic Regression, SVM, Random Forest) and BERT, it demonstrates multilingual NLP techniques for social media text analysis.
-
-Features
-✔ Preprocessing for both languages (cleaning, normalization, stopword removal)
-✔ Handling class imbalance (oversampling for Arabic data)
-✔ Multiple ML models compared (Logistic Regression, SVM, Random Forest)
-✔ BERT for multilingual sentiment analysis (experimental)
-✔ Visualizations (word clouds, class distribution plots)
-
-Results
-Model	English Accuracy	Arabic Accuracy
-Logistic Regression	75%	88%
-Random Forest	72%	86%
-SVM	74%	-
+**Why It Matters:**  
+Demonstrates hands-on experience with:  
+✔ Cross-lingual NLP challenges  
+✔ Traditional ML vs. deep learning approaches  
+✔ Real-world data preprocessing pipelines  
